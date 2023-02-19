@@ -36,7 +36,7 @@ Module RollOfTheDice
                         rollCount = CInt(userInput)
 
                         If rollCount >= 1000 And rollCount <= 1000000 Then
-                            Console.WriteLine("Generated Numbers")
+                            Console.WriteLine($"Two Six-Sided dice have been rolled {rollCount} times. Here are the results.")
                             Console.WriteLine("-----------------------------------------------------------------------------")
                             For i As Integer = 1 To rollCount
 
