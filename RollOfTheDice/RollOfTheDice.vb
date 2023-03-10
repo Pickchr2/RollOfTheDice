@@ -55,7 +55,7 @@ Module RollOfTheDice
                             Console.WriteLine()
                             Console.WriteLine("-----------------------------------------------------------------------------")
                         Else
-                            Console.WriteLine($"Sorry, {rollCount} is out of range of accetable numbers.")
+                            Console.WriteLine($"Sorry, {rollCount} is out of range of acceptable numbers.")
                         End If
                     Catch ex As Exception
                         Console.WriteLine($"Sorry, {userInput} is not a whole number.")
